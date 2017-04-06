@@ -5,7 +5,6 @@ class T2S(object):
     def test2Speech(self, text):
         tts = gTTS(text=str(text), lang='en')
         tts.save("hello.mp3")
-
         os.system("mpg321 hello.mp3")
 
 

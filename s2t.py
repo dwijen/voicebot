@@ -18,12 +18,10 @@ class S2T(object):
             return ""
 
     def startListening(self):
-        print("Listening...")
+        #print("Listening...")
         app = self.listen()
-        print("End of Listening..")
-
-        print("What I heard:")
-        print(str(app))
+        #print("End of Listening..")
+        print("What I heard:-" + str(app))
         return str(app)
 
 if __name__ =='__main__':
